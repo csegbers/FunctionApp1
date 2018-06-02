@@ -16,6 +16,7 @@ namespace FunctionApp1
         {
             //add comment
             //add comment 2
+            //add comment 3
             log.Info("C# HTTP trigger function processed a request.");
 
             string name = req.Query["name"];
