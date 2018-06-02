@@ -14,9 +14,6 @@ namespace FunctionApp1
         [FunctionName("Function1")]
         public static IActionResult Run([HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)]HttpRequest req, TraceWriter log)
         {
-            //add comment
-            //add comment 2
-            //add comment 3
             log.Info("C# HTTP trigger function processed a request.");
 
             string name = req.Query["name"];
