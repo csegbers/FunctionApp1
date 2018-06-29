@@ -15,7 +15,7 @@ namespace FunctionApp1
         public static IActionResult Run([HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)]HttpRequest req, TraceWriter log)
         {
             log.Info("C# HTTP trigger function processed a request.");
-            //comment add change it
+            //comment add change ituiiui
             string name = req.Query["name"];
 
             string requestBody = new StreamReader(req.Body).ReadToEnd();
